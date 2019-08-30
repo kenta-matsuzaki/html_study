@@ -6,13 +6,27 @@ body {
   color: #333;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 p {
   line-height: 2;
 }
 
-.container {
-  width: 90%;
-  margin: 0 auto;
+body > section {
+  padding: 60px 0;
+}
+
+body > section:nth-of-type(odd) {
+  background: #fff;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: normal;
+  margin: 0 0 60px;
 }
 
 header h1 {
@@ -26,21 +40,14 @@ header h1 {
   cursor: pointer;
 }
 
-.features {
-  padding: 60px 0;
-  background: #fff;
-}
-
-.features h1 {
-  text-align: center;
-  font-weight: normal;
-  margin: 0 0 60px;
-}
-
 .feature img {
   width: 100%;
 }
 
 .feature:not(:last-child) {
   margin-bottom: 60px;
+}
+
+.news-item img {
+  width: 100%;
 }
