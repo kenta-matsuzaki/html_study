@@ -150,8 +150,23 @@ footer {
 
 @media (min-width: 912px) {
 
-  body {
-    background: lime;
+  .container {
+    width: 820px;
+  }
+
+  #open_menu {
+    display: none;
+  }
+
+  #close_menu {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+    position: static;
+    background: transparent;
+    color: #333;
   }
 
 }
