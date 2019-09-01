@@ -71,3 +71,9 @@ x% = 9 * 100% / 16 = 56.25%
   height: 0;
   position: relative;
 }
+
+footer {
+  text-align: center;
+  padding: 60px 0;
+  color: #ccc;
+}
