@@ -87,6 +87,10 @@ header h1 {
   width: 100%;
 }
 
+.news-item:not(:last-child) {
+  margin-bottom: 60px;
+}
+
 .how-to-use iframe {
   position: absolute;
   width: 100%;
@@ -167,6 +171,17 @@ footer {
     position: static;
     background: transparent;
     color: #333;
+  }
+
+  #menu ul {
+    padding: 0;
+    float: right;
+  }
+
+  #menu li {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
   }
 
 }
