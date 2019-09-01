@@ -112,3 +112,19 @@ footer {
   padding: 60px 0;
   color: #ccc;
 }
+
+@media (min-width: 570px) {
+
+  body {
+    background: skyblue;
+  }
+
+}
+
+@media (min-width: 912px) {
+
+  body {
+    background: lime;
+  }
+
+}
