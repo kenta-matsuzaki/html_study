@@ -115,8 +115,26 @@ footer {
 
 @media (min-width: 570px) {
 
-  body {
-    background: skyblue;
+  .feature img {
+    width: 50%;
+  }
+
+  .feature p {
+    width: 45%;
+  }
+
+  .feature:nth-of-type(odd) p {
+    float: right;
+    padding-left: 5%;
+  }
+
+  .feature:nth-of-type(even) p {
+    float: left;
+    padding-right: 5%;
+  }
+
+  .feature {
+    overflow: hidden;
   }
 
 }
