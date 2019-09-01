@@ -41,6 +41,11 @@ header h1 {
   right: 0;
   background: rgba(0, 0, 0, .9);
   color: #fff;
+  display: none;
+}
+
+#menu.shown {
+  display: block;
 }
 
 #menu ul {
@@ -61,6 +66,12 @@ header h1 {
 #open_menu {
   float: right;
   font-size: 24px;
+  cursor: pointer;
+}
+
+#close_menu {
+  padding: 15px;
+  float: right;
   cursor: pointer;
 }
 
