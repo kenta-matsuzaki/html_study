@@ -137,6 +137,15 @@ footer {
     overflow: hidden;
   }
 
+  .news .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .news-item {
+    width: 30%;
+  }
+
 }
 
 @media (min-width: 912px) {
